@@ -14,7 +14,7 @@ export const AnalyticsCard: FC<Props> = ({ title, data, color, isRate }) => {
       style={{ borderColor: `${color}` }}
     >
       <h1 className="text-center text-sm">{title}</h1>
-      <h1 className="text-center mt-4 text-5xl font-bold font-cp-font">
+      <h1 className="text-center mt-4 text-4xl font-bold font-cp-font">
         {data}
         {isRate && <span>%</span>}
       </h1>

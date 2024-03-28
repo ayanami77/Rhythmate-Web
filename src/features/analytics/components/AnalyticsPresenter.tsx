@@ -58,13 +58,13 @@ export const AnalyticsPresenter = () => {
           </div>
           <div className="grid grid-cols-2 gap-6 w-full mt-6">
             <AnalyticsCard
-              title={"達成したクエストの数"}
+              title={"達成したクエスト数"}
               data={weeklyReports[currentIndex].completed_quests}
               color={"#E0201B"}
               isRate={false}
             />
             <AnalyticsCard
-              title={"失敗したクエストの数"}
+              title={"失敗したクエスト数"}
               data={weeklyReports[currentIndex].failed_quests}
               color={"#0087EE"}
               isRate={false}
